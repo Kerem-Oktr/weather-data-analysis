@@ -82,10 +82,13 @@ This plot shows the distribution of days by weather condition (Dry, Rainy, Mixed
 To download the project to your local machine, clone this GitHub repository:
 
 ```bash
-git clone [https://github.com/Kerem-Oktr/weather-data-analysis](https://github.com/Kerem-Oktr/weather-data-analysis)
-cd repo-name
+git clone https://github.com/Kerem-Oktr/weather-data-analysis
 ```
-### 2. Install Requirements:
+### 2.Navigate to Project Directory:
+```bash
+cd weather-data-analysis
+```
+### 3. Install Requirements:
 Install the necessary Python libraries for the project to run using `pip`:
 - pandas
 - numpy
@@ -93,7 +96,7 @@ Install the necessary Python libraries for the project to run using `pip`:
 ```bash
 pip install pandas numpy matplotlib
 ```
-### 3.Run the Script:
+### 4.Run the Script:
 With all files (especially `munich.csv`) in the same directory as `main.py`, run the script:
 ```bash
 python main.py
